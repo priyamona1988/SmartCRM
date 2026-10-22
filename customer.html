@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers | SmartCRM</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Smart<span>CRM</span></h2>
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    <span class="material-icons">dashboard</span>
+                    Dashboard
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="customers.html">
+                    <span class="material-icons">groups</span>
+                    Customers
+                </a>
+            </li>
+
+            <li>
+                <a href="leads.html">
+                    <span class="material-icons">person_search</span>
+                    Leads
+                </a>
+            </li>
+
+            <li>
+                <a href="sales.html">
+                    <span class="material-icons">payments</span>
+                    Sales
+                </a>
+            </li>
+
+            <li>
+                <a href="employees.html">
+                    <span class="material-icons">badge</span>
+                    Employees
+                </a>
+            </li>
+
+            <li>
+                <a href="reports.html">
+                    <span class="material-icons">bar_chart</span>
+                    Reports
+                </a>
+            </li>
+
+            <hr>
+
+            <li>
+                <a href="settings.html">
+                    <span class="material-icons">settings</span>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Content -->
+    <main class="content">
+
+        <div class="topbar">
+
+            <div>
+                <h1>Customers</h1>
+                <p>Manage all customer records.</p>
+            </div>
+
+            <div class="profile">
+
+                <img src="profile.png" alt="Profile">
+
+                <div>
+                    <h4>Admin User</h4>
+                    <p>Administrator</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="page-title">
+
+            <h2>Customer Management</h2>
+            <p>Search, view and manage your customers.</p>
+
+        </div>
+
+        <!-- Search Toolbar -->
+
+        <div class="toolbar">
+
+            <div class="search-bar">
+
+                <input type="text" placeholder="Search customer...">
+
+                <select>
+
+                    <option>All Status</option>
+                    <option>Active</option>
+                    <option>Inactive</option>
+
+                </select>
+
+            </div>
+
+            <a href="#" class="btn btn-primary">
+
+                + Add New Customer
+
+            </a>
+
+        </div>
+
+        <!-- Customer Table -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>City</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>C001</td>
+                        <td>John Smith</td>
+                        <td>john@email.com</td>
+                        <td>9876543210</td>
+                        <td>New York</td>
+
+                        <td>
+                            <span class="status active-status">
+                                Active
+                            </span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>C002</td>
+                        <td>Sarah Johnson</td>
+                        <td>sarah@email.com</td>
+                        <td>9876500012</td>
+                        <td>Chicago</td>
+
+                        <td>
+                            <span class="status pending-status">
+                                Pending
+                            </span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>C003</td>
+                        <td>Emily Davis</td>
+                        <td>emily@email.com</td>
+                        <td>9988776655</td>
+                        <td>Dallas</td>
+
+                        <td>
+                            <span class="status active-status">
+                                Active
+                            </span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>C004</td>
+                        <td>Michael Brown</td>
+                        <td>michael@email.com</td>
+                        <td>9123456789</td>
+                        <td>Boston</td>
+
+                        <td>
+                            <span class="status inactive-status">
+                                Inactive
+                            </span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <div class="pagination">
+
+                <a href="#">«</a>
+
+                <a href="#" class="active">1</a>
+
+                <a href="#">2</a>
+
+                <a href="#">3</a>
+
+                <a href="#">»</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            © 2026 SmartCRM | Customer Management
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>

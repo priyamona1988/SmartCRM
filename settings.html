@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Settings | SmartCRM</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+<aside class="sidebar">
+
+    <div class="logo">
+        <h2>Smart<span>CRM</span></h2>
+    </div>
+
+    <ul>
+
+        <li>
+            <a href="index.html">
+                <span class="material-icons">dashboard</span>
+                Dashboard
+            </a>
+        </li>
+
+        <li>
+            <a href="customers.html">
+                <span class="material-icons">groups</span>
+                Customers
+            </a>
+        </li>
+
+        <li>
+            <a href="leads.html">
+                <span class="material-icons">person_search</span>
+                Leads
+            </a>
+        </li>
+
+        <li>
+            <a href="sales.html">
+                <span class="material-icons">payments</span>
+                Sales
+            </a>
+        </li>
+
+        <li>
+            <a href="employees.html">
+                <span class="material-icons">badge</span>
+                Employees
+            </a>
+        </li>
+
+        <li>
+            <a href="reports.html">
+                <span class="material-icons">bar_chart</span>
+                Reports
+            </a>
+        </li>
+
+        <hr>
+
+        <li class="active">
+            <a href="settings.html">
+                <span class="material-icons">settings</span>
+                Settings
+            </a>
+        </li>
+
+    </ul>
+
+</aside>
+
+
+
+<main class="content">
+
+<div class="topbar">
+
+    <div>
+
+        <h1>Settings</h1>
+
+        <p>Manage your account preferences and security.</p>
+
+    </div>
+
+    <div class="profile">
+
+        <img src="profile.png" alt="Profile">
+
+        <div>
+
+            <h4>Admin User</h4>
+
+            <p>Administrator</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="page-title">
+
+    <h2>User Settings</h2>
+
+    <p>Update your personal information and account settings.</p>
+
+</div>
+
+<div class="settings-grid">
+
+
+<div class="profile-card">
+
+    <img src="profile.png" alt="Profile">
+
+    <h3>Admin User</h3>
+
+    <p>CRM Administrator</p>
+
+    <br>
+
+    <a href="#" class="btn btn-primary">
+
+        Change Photo
+
+    </a>
+
+</div>
+
+
+<div class="form-card">
+
+<h2>Personal Information</h2>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label>First Name</label>
+
+<input type="text" value="Admin">
+
+</div>
+
+<div class="form-group">
+
+<label>Last Name</label>
+
+<input type="text" value="User">
+
+</div>
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label>Email Address</label>
+
+<input type="email" value="admin@smartcrm.com">
+
+</div>
+
+<div class="form-group">
+
+<label>Phone Number</label>
+
+<input type="text" value="+1 9876543210">
+
+</div>
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label>Job Title</label>
+
+<input type="text" value="CRM Administrator">
+
+</div>
+
+<div class="form-group">
+
+<label>Department</label>
+
+<select>
+
+<option>Administration</option>
+<option>Sales</option>
+<option>Marketing</option>
+<option>Finance</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label>Address</label>
+
+<textarea rows="4">
+
+123 Business Avenue,
+New York,
+USA
+
+</textarea>
+
+</div>
+
+<hr>
+
+<h2>Change Password</h2>
+
+<div class="form-group">
+
+<label>Current Password</label>
+
+<input type="password">
+
+</div>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label>New Password</label>
+
+<input type="password">
+
+</div>
+
+<div class="form-group">
+
+<label>Confirm Password</label>
+
+<input type="password">
+
+</div>
+
+</div>
+
+<hr>
+
+<h2>Notification Preferences</h2>
+
+<div class="form-group">
+
+<label>
+
+<input type="checkbox" checked>
+
+Email Notifications
+
+</label>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+<input type="checkbox" checked>
+
+SMS Notifications
+
+</label>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+<input type="checkbox">
+
+Marketing Emails
+
+</label>
+
+</div>
+
+<hr>
+
+<h2>Application Settings</h2>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label>Language</label>
+
+<select>
+
+<option>English</option>
+<option>French</option>
+<option>German</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>Time Zone</label>
+
+<select>
+
+<option>GMT +05:30</option>
+<option>GMT</option>
+<option>GMT +01:00</option>
+
+</select>
+
+</div>
+
+</div>
+
+<hr>
+
+<h2>Security Settings</h2>
+
+<div class="form-group">
+
+    <label>
+
+        <input type="checkbox" checked>
+
+        Enable Two-Factor Authentication (2FA)
+
+    </label>
+
+</div>
+
+<div class="form-group">
+
+    <label>
+
+        <input type="checkbox" checked>
+
+        Login Alerts
+
+    </label>
+
+</div>
+
+<div class="form-group">
+
+    <label>
+
+        <input type="checkbox">
+
+        Remember this Device
+
+    </label>
+
+</div>
+
+<hr>
+
+<h2>Theme Preferences</h2>
+
+<div class="form-row">
+
+    <div class="form-group">
+
+        <label>Application Theme</label>
+
+        <select>
+
+            <option selected>Light Mode</option>
+            <option>Dark Mode</option>
+            <option>System Default</option>
+
+        </select>
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Dashboard Layout</label>
+
+        <select>
+
+            <option selected>Standard</option>
+            <option>Compact</option>
+            <option>Wide</option>
+
+        </select>
+
+    </div>
+
+</div>
+
+<hr>
+
+<h2>Privacy Settings</h2>
+
+<div class="form-group">
+
+    <label>
+
+        <input type="checkbox" checked>
+
+        Allow Profile Visibility
+
+    </label>
+
+</div>
+
+<div class="form-group">
+
+    <label>
+
+        <input type="checkbox">
+
+        Allow Marketing Communication
+
+    </label>
+
+</div>
+
+<div class="form-group">
+
+    <label>
+
+        <input type="checkbox" checked>
+
+        Receive Product Updates
+
+    </label>
+
+</div>
+
+<hr>
+
+<h2>Account Information</h2>
+
+<div class="form-row">
+
+    <div class="form-group">
+
+        <label>Account Created</label>
+
+        <input type="text" value="01 January 2026" readonly>
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Last Login</label>
+
+        <input type="text" value="04 August 2026 - 09:45 AM" readonly>
+
+    </div>
+
+</div>
+
+<div class="form-row">
+
+    <div class="form-group">
+
+        <label>User Role</label>
+
+        <input type="text" value="System Administrator" readonly>
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Account Status</label>
+
+        <input type="text" value="Active" readonly>
+
+    </div>
+
+</div>
+
+<br>
+
+<div style="display:flex;gap:15px;justify-content:flex-end;">
+
+    <a href="#" class="btn btn-secondary">
+
+        Cancel
+
+    </a>
+
+    <a href="#" class="btn btn-success">
+
+        Save Changes
+
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+    © 2026 SmartCRM | User Settings
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+
+</html>

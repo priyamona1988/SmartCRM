@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Side Menu -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Smart<span>CRM</span></h2>
+        </div>
+
+        <ul>
+
+            <li class="active">
+                <a href="index.html">
+                    <span class="material-icons">dashboard</span>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="customer.html">
+                    <span class="material-icons">groups</span>
+                    Customers
+                </a>
+            </li>
+
+            <li>
+                <a href="leads.html">
+                    <span class="material-icons">person_search</span>
+                    Leads
+                </a>
+            </li>
+
+            <li>
+                <a href="sales.html">
+                    <span class="material-icons">payments</span>
+                    Sales
+                </a>
+            </li>
+
+            <li>
+                <a href="employees.html">
+                    <span class="material-icons">badge</span>
+                    Employees
+                </a>
+            </li>
+
+            <li>
+                <a href="reports.html">
+                    <span class="material-icons">bar_chart</span>
+                    Reports
+                </a>
+            </li>
+
+            <hr>
+
+            <li>
+                <a href="settings.html">
+                    <span class="material-icons">settings</span>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <main class="content">
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>Dashboard</h1>
+
+                <p>Welcome back! Here's what's happening today.</p>
+
+            </div>
+
+            <div class="header-right">
+
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+
+                <div class="notification">
+                    <span class="material-icons">notifications</span>
+                </div>
+
+                <div class="profile">
+
+                    <img src="profile.png" alt="Profile">
+
+                    <div>
+
+                        <h4>Admin User</h4>
+
+                        <p>Administrator</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="page-title">
+
+            <h2>Dashboard Overview</h2>
+
+            <p>Monitor your customers, leads, sales and employee performance.</p>
+
+        </div>
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Total Customers</h3>
+
+                        <h2>1,248</h2>
+
+                        <small>+12% this month</small>
+
+                    </div>
+
+                    <div class="card-icon blue">
+                        <span class="material-icons">groups</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>New Leads</h3>
+
+                        <h2>324</h2>
+
+                        <small>+28 today</small>
+
+                    </div>
+
+                    <div class="card-icon orange">
+                        <span class="material-icons">person_add</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Total Sales</h3>
+
+                        <h2>$84,250</h2>
+
+                        <small>+18% growth</small>
+
+                    </div>
+
+                    <div class="card-icon green">
+                        <span class="material-icons">paid</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Employees</h3>
+
+                        <h2>48</h2>
+
+                        <small>3 New Joined</small>
+
+                    </div>
+
+                    <div class="card-icon red">
+                        <span class="material-icons">badge</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+<div class="grid-layout">
+
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h3>Revenue Overview</h3>
+
+            <a href="#">View Report</a>
+
+        </div>
+
+        <div class="chart-box">
+              
+              <img src="revenue-chart.jpeg"
+         alt="Revenue Chart"
+         class="chart-image">
+
+            
+
+        </div>
+
+    </div>
+
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h3>Quick Actions</h3>
+
+        </div>
+
+        <div class="action-buttons">
+
+            <a href="customer.html" class="action-btn">
+                Add Customer
+            </a>
+
+            <a href="leads.html" class="action-btn">
+                Add Lead
+            </a>
+
+            <a href="sales.html" class="action-btn">
+                New Sale
+            </a>
+
+            <a href="employees.html" class="action-btn">
+                Add Employee
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="table-container">
+
+    <div class="panel-header">
+
+        <h3>Recent Customers</h3>
+
+        <a href="customer.html">View All</a>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>C001</td>
+
+                <td>John Smith</td>
+
+                <td>john@email.com</td>
+
+                <td>+1 987654321</td>
+
+                <td>
+
+                    <span class="status active-status">
+                        Active
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>C002</td>
+
+                <td>Sarah Johnson</td>
+
+                <td>sarah@email.com</td>
+
+                <td>+1 874563211</td>
+
+                <td>
+
+                    <span class="status pending-status">
+                        Pending
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>C003</td>
+
+                <td>Michael Brown</td>
+
+                <td>michael@email.com</td>
+
+                <td>+1 789456123</td>
+
+                <td>
+
+                    <span class="status active-status">
+                        Active
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>C004</td>
+
+                <td>Emily Davis</td>
+
+                <td>emily@email.com</td>
+
+                <td>+1 654321987</td>
+
+                <td>
+
+                    <span class="status inactive-status">
+                        Inactive
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>C005</td>
+
+                <td>William Lee</td>
+
+                <td>william@email.com</td>
+
+                <td>+1 999555222</td>
+
+                <td>
+
+                    <span class="status converted-status">
+                        Premium
+                    </span>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<br>
+
+
+<div class="panel">
+
+    <div class="panel-header">
+
+        <h3>Recent Activities</h3>
+
+    </div>
+
+    <ul class="activity-list">
+
+        <li>
+
+            <div class="activity-text">
+
+                <h4>New Customer Registered</h4>
+
+                <p>John Smith created an account.</p>
+
+            </div>
+
+            <div class="activity-time">
+
+                10 mins ago
+
+            </div>
+
+        </li>
+
+        <li>
+
+            <div class="activity-text">
+
+                <h4>Lead Converted</h4>
+
+                <p>Sarah Johnson became a customer.</p>
+
+            </div>
+
+            <div class="activity-time">
+
+                45 mins ago
+
+            </div>
+
+        </li>
+
+        <li>
+
+            <div class="activity-text">
+
+                <h4>New Sale Completed</h4>
+
+                <p>Invoice #INV1025 has been paid.</p>
+
+            </div>
+
+            <div class="activity-time">
+
+                1 hour ago
+
+            </div>
+
+        </li>
+
+        <li>
+
+            <div class="activity-text">
+
+                <h4>Employee Joined</h4>
+
+                <p>David Wilson joined Sales Team.</p>
+
+            </div>
+
+            <div class="activity-time">
+
+                Yesterday
+
+            </div>
+
+        </li>
+
+    </ul>
+
+</div>
+
+
+
+<div class="footer">
+
+    © 2026 SmartCRM | CRM Dashboard 
+
+</div>
+
+    </main>
+
+</div>
+
+</body>
+</html>

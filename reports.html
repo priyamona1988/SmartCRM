@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reports | SmartCRM</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- =========================
+            SIDEBAR
+    ========================== -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Smart<span>CRM</span></h2>
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    <span class="material-icons">dashboard</span>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="customers.html">
+                    <span class="material-icons">groups</span>
+                    Customers
+                </a>
+            </li>
+
+            <li>
+                <a href="leads.html">
+                    <span class="material-icons">person_search</span>
+                    Leads
+                </a>
+            </li>
+
+            <li>
+                <a href="sales.html">
+                    <span class="material-icons">payments</span>
+                    Sales
+                </a>
+            </li>
+
+            <li>
+                <a href="employees.html">
+                    <span class="material-icons">badge</span>
+                    Employees
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="reports.html">
+                    <span class="material-icons">bar_chart</span>
+                    Reports
+                </a>
+            </li>
+
+            <hr>
+
+            <li>
+                <a href="settings.html">
+                    <span class="material-icons">settings</span>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- =========================
+            CONTENT
+    ========================== -->
+
+    <main class="content">
+
+        <!-- Header -->
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>Reports</h1>
+
+                <p>Business insights and performance analytics.</p>
+
+            </div>
+
+            <div class="profile">
+
+                <img src="profile.png" alt="Profile">
+
+                <div>
+
+                    <h4>Admin User</h4>
+
+                    <p>Administrator</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Page Title -->
+
+        <div class="page-title">
+
+            <h2>Business Reports</h2>
+
+            <p>Monitor revenue, customer growth and sales performance.</p>
+
+        </div>
+
+        <!-- KPI Cards -->
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Total Revenue</h3>
+
+                        <h2>$248,900</h2>
+
+                        <small>+18% this month</small>
+
+                    </div>
+
+                    <div class="card-icon green">
+
+                        <span class="material-icons">paid</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Total Sales</h3>
+
+                        <h2>1,240</h2>
+
+                        <small>84 Today</small>
+
+                    </div>
+
+                    <div class="card-icon blue">
+
+                        <span class="material-icons">shopping_cart</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Customers</h3>
+
+                        <h2>1,248</h2>
+
+                        <small>+32 New</small>
+
+                    </div>
+
+                    <div class="card-icon orange">
+
+                        <span class="material-icons">groups</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Growth Rate</h3>
+
+                        <h2>18%</h2>
+
+                        <small>Compared to Last Month</small>
+
+                    </div>
+
+                    <div class="card-icon red">
+
+                        <span class="material-icons">trending_up</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Toolbar -->
+
+        <div class="toolbar">
+
+            <div class="search-bar">
+
+                <input type="text" placeholder="Search Report">
+
+                <select>
+
+                    <option>All Reports</option>
+                    <option>Sales</option>
+                    <option>Revenue</option>
+                    <option>Customers</option>
+                    <option>Employees</option>
+
+                </select>
+
+            </div>
+
+            <a href="#" class="btn btn-success">
+
+                Export Report
+
+            </a>
+
+        </div>
+
+        <!-- Revenue Overview -->
+
+        <div class="panel">
+
+            <div class="panel-header">
+
+                <h3>Revenue Trend (2026)</h3>
+
+                <a href="#">View Details</a>
+
+            </div>
+
+            <div class="chart-box">
+                <img src="revenue-chart.jpeg"
+                alt="Revenue Chart"
+                class="chart-image">
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- Monthly Sales Summary -->
+
+        <div class="table-container">
+
+            <div class="panel-header">
+
+                <h3>Monthly Sales Summary</h3>
+
+            </div>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Month</th>
+                        <th>Orders</th>
+                        <th>Revenue</th>
+                        <th>Growth</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>January</td>
+                        <td>102</td>
+                        <td>$15,200</td>
+                        <td><span class="status active-status">+8%</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>February</td>
+                        <td>118</td>
+                        <td>$17,800</td>
+                        <td><span class="status active-status">+12%</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>March</td>
+                        <td>126</td>
+                        <td>$19,600</td>
+                        <td><span class="status active-status">+10%</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>April</td>
+                        <td>140</td>
+                        <td>$22,450</td>
+                        <td><span class="status active-status">+15%</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>May</td>
+                        <td>152</td>
+                        <td>$25,300</td>
+                        <td><span class="status active-status">+13%</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>June</td>
+                        <td>168</td>
+                        <td>$28,900</td>
+                        <td><span class="status active-status">+14%</span></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+<!-- ==========================================
+     CUSTOMER GROWTH STATISTICS
+=========================================== -->
+
+<br>
+
+<div class="table-container">
+
+    <div class="panel-header">
+
+        <h3>Customer Growth Statistics</h3>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Month</th>
+                <th>New Customers</th>
+                <th>Returning Customers</th>
+                <th>Total Customers</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>January</td>
+                <td>56</td>
+                <td>84</td>
+                <td>140</td>
+            </tr>
+
+            <tr>
+                <td>February</td>
+                <td>63</td>
+                <td>91</td>
+                <td>154</td>
+            </tr>
+
+            <tr>
+                <td>March</td>
+                <td>72</td>
+                <td>95</td>
+                <td>167</td>
+            </tr>
+
+            <tr>
+                <td>April</td>
+                <td>80</td>
+                <td>110</td>
+                <td>190</td>
+            </tr>
+
+            <tr>
+                <td>May</td>
+                <td>94</td>
+                <td>118</td>
+                <td>212</td>
+            </tr>
+
+            <tr>
+                <td>June</td>
+                <td>108</td>
+                <td>126</td>
+                <td>234</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<br>
+
+<!-- ==========================================
+     TOP PERFORMING EMPLOYEES
+=========================================== -->
+
+<div class="table-container">
+
+    <div class="panel-header">
+
+        <h3>Top Performing Employees</h3>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Employee</th>
+                <th>Department</th>
+                <th>Sales</th>
+                <th>Revenue</th>
+                <th>Performance</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Jennifer Adams</td>
+                <td>Sales</td>
+                <td>146</td>
+                <td>$58,000</td>
+
+                <td>
+
+                    <span class="status active-status">
+
+                        Excellent
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Robert King</td>
+                <td>Marketing</td>
+                <td>128</td>
+                <td>$47,800</td>
+
+                <td>
+
+                    <span class="status converted-status">
+
+                        Very Good
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Alex Martin</td>
+                <td>Finance</td>
+                <td>117</td>
+                <td>$41,600</td>
+
+                <td>
+
+                    <span class="status pending-status">
+
+                        Good
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Sarah Wilson</td>
+                <td>HR</td>
+                <td>101</td>
+                <td>$38,900</td>
+
+                <td>
+
+                    <span class="status active-status">
+
+                        Excellent
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<br>
+
+<!-- ==========================================
+     RECENT REPORTS
+=========================================== -->
+
+<div class="table-container">
+
+    <div class="panel-header">
+
+        <h3>Recent Reports</h3>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Report Name</th>
+                <th>Generated By</th>
+                <th>Date</th>
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Monthly Sales Report</td>
+                <td>Admin</td>
+                <td>04 Aug 2026</td>
+
+                <td>
+
+                    <span class="status active-status">
+
+                        Completed
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Revenue Analysis</td>
+                <td>Jennifer</td>
+                <td>03 Aug 2026</td>
+
+                <td>
+
+                    <span class="status active-status">
+
+                        Completed
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Customer Growth Report</td>
+                <td>Robert</td>
+                <td>02 Aug 2026</td>
+
+                <td>
+
+                    <span class="status pending-status">
+
+                        Processing
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Employee Performance</td>
+                <td>Sarah</td>
+                <td>30 Jul 2026</td>
+
+                <td>
+
+                    <span class="status active-status">
+
+                        Completed
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Annual Revenue Summary</td>
+                <td>Admin</td>
+                <td>28 Jul 2026</td>
+
+                <td>
+
+                    <span class="status inactive-status">
+
+                        Archived
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <div class="pagination">
+
+        <a href="#">«</a>
+
+        <a href="#" class="active">1</a>
+
+        <a href="#">2</a>
+
+        <a href="#">3</a>
+
+        <a href="#">»</a>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+     FOOTER
+=========================================== -->
+
+<div class="footer">
+
+    © 2026 SmartCRM | Reports & Analytics Dashboard
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+
+</html>

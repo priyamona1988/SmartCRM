@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employees | SmartCRM</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+   
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Smart<span>CRM</span></h2>
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    <span class="material-icons">dashboard</span>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="customers.html">
+                    <span class="material-icons">groups</span>
+                    Customers
+                </a>
+            </li>
+
+            <li>
+                <a href="leads.html">
+                    <span class="material-icons">person_search</span>
+                    Leads
+                </a>
+            </li>
+
+            <li>
+                <a href="sales.html">
+                    <span class="material-icons">payments</span>
+                    Sales
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="employees.html">
+                    <span class="material-icons">badge</span>
+                    Employees
+                </a>
+            </li>
+
+            <li>
+                <a href="reports.html">
+                    <span class="material-icons">bar_chart</span>
+                    Reports
+                </a>
+            </li>
+
+            <hr>
+
+            <li>
+                <a href="settings.html">
+                    <span class="material-icons">settings</span>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>Employees</h1>
+
+                <p>Manage your organization employees.</p>
+
+            </div>
+
+            <div class="profile">
+
+                <img src="profile.png" alt="Profile">
+
+                <div>
+
+                    <h4>Admin User</h4>
+
+                    <p>Administrator</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="page-title">
+
+            <h2>Employee Management</h2>
+
+            <p>View, search and manage employees.</p>
+
+        </div>
+
+      
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Total Employees</h3>
+
+                        <h2>148</h2>
+
+                        <small>+5 this month</small>
+
+                    </div>
+
+                    <div class="card-icon blue">
+
+                        <span class="material-icons">groups</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Departments</h3>
+
+                        <h2>8</h2>
+
+                        <small>Active Teams</small>
+
+                    </div>
+
+                    <div class="card-icon green">
+
+                        <span class="material-icons">apartment</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>On Leave</h3>
+
+                        <h2>7</h2>
+
+                        <small>Today</small>
+
+                    </div>
+
+                    <div class="card-icon orange">
+
+                        <span class="material-icons">event_busy</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>New Joiners</h3>
+
+                        <h2>12</h2>
+
+                        <small>This Year</small>
+
+                    </div>
+
+                    <div class="card-icon red">
+
+                        <span class="material-icons">person_add</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+            TOOLBAR
+        ========================== -->
+
+        <div class="toolbar">
+
+            <div class="search-bar">
+
+                <input type="text" placeholder="Search Employee">
+
+                <select>
+
+                    <option>All Departments</option>
+                    <option>Sales</option>
+                    <option>Marketing</option>
+                    <option>HR</option>
+                    <option>Finance</option>
+                    <option>Support</option>
+
+                </select>
+
+            </div>
+
+            <a href="#" class="btn btn-primary">
+
+                + Add Employee
+
+            </a>
+
+        </div>
+
+        <!-- =========================
+            EMPLOYEE TABLE
+        ========================== -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Employee ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Designation</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                        <th>Action</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>EMP001</td>
+                        <td>Jennifer Adams</td>
+                        <td>Sales</td>
+                        <td>Sales Manager</td>
+                        <td>jennifer@crm.com</td>
+                        <td>9876543210</td>
+
+                        <td>
+                            <span class="status active-status">Active</span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>EMP002</td>
+                        <td>Robert King</td>
+                        <td>Marketing</td>
+                        <td>Marketing Executive</td>
+                        <td>robert@crm.com</td>
+                        <td>9658741230</td>
+
+                        <td>
+                            <span class="status active-status">Active</span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>EMP003</td>
+                        <td>Alex Martin</td>
+                        <td>Finance</td>
+                        <td>Accountant</td>
+                        <td>alex@crm.com</td>
+                        <td>9988776655</td>
+
+                        <td>
+                            <span class="status pending-status">On Leave</span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>EMP004</td>
+                        <td>Sarah Wilson</td>
+                        <td>HR</td>
+                        <td>HR Manager</td>
+                        <td>sarah@crm.com</td>
+                        <td>9123456789</td>
+
+                        <td>
+                            <span class="status active-status">Active</span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>EMP005</td>
+                        <td>David Johnson</td>
+                        <td>Support</td>
+                        <td>Support Executive</td>
+                        <td>david@crm.com</td>
+                        <td>9784512365</td>
+
+                        <td>
+                            <span class="status inactive-status">Inactive</span>
+                        </td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <div class="pagination">
+
+                <a href="#">«</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">»</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            © 2026 SmartCRM | Employee Management
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>

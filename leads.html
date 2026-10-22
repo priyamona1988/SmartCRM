@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads | SmartCRM</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Smart<span>CRM</span></h2>
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    <span class="material-icons">dashboard</span>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="customers.html">
+                    <span class="material-icons">groups</span>
+                    Customers
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="leads.html">
+                    <span class="material-icons">person_search</span>
+                    Leads
+                </a>
+            </li>
+
+            <li>
+                <a href="sales.html">
+                    <span class="material-icons">payments</span>
+                    Sales
+                </a>
+            </li>
+
+            <li>
+                <a href="employees.html">
+                    <span class="material-icons">badge</span>
+                    Employees
+                </a>
+            </li>
+
+            <li>
+                <a href="reports.html">
+                    <span class="material-icons">bar_chart</span>
+                    Reports
+                </a>
+            </li>
+
+            <hr>
+
+            <li>
+                <a href="settings.html">
+                    <span class="material-icons">settings</span>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="content">
+
+        <div class="topbar">
+
+            <div>
+                <h1>Leads</h1>
+                <p>Track and manage all business leads.</p>
+            </div>
+
+            <div class="profile">
+
+                <img src="profile.png" alt="Profile">
+
+                <div>
+                    <h4>Admin User</h4>
+                    <p>Administrator</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="page-title">
+
+            <h2>Lead Management</h2>
+            <p>Search, filter and manage your leads.</p>
+
+        </div>
+
+        <!-- Toolbar -->
+
+        <div class="toolbar">
+
+            <div class="search-bar">
+
+                <input type="text" placeholder="Search Lead">
+
+                <select>
+
+                    <option>All Status</option>
+                    <option>New</option>
+                    <option>Qualified</option>
+                    <option>Converted</option>
+                    <option>Lost</option>
+
+                </select>
+
+            </div>
+
+            <a href="#" class="btn btn-primary">
+                + Add Lead
+            </a>
+
+        </div>
+
+        <!-- Lead Table -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Lead ID</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                        <th>Assigned To</th>
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>L001</td>
+                        <td>David Wilson</td>
+                        <td>ABC Technologies</td>
+                        <td>david@abc.com</td>
+                        <td>9876543210</td>
+
+                        <td>
+                            <span class="status pending-status">New</span>
+                        </td>
+
+                        <td>Jennifer</td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>L002</td>
+                        <td>Emily Brown</td>
+                        <td>Future Solutions</td>
+                        <td>emily@future.com</td>
+                        <td>9874512365</td>
+
+                        <td>
+                            <span class="status active-status">Qualified</span>
+                        </td>
+
+                        <td>Robert</td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>L003</td>
+                        <td>Michael Scott</td>
+                        <td>Dunder Mifflin</td>
+                        <td>michael@dm.com</td>
+                        <td>9854123698</td>
+
+                        <td>
+                            <span class="status converted-status">Converted</span>
+                        </td>
+
+                        <td>Jennifer</td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>L004</td>
+                        <td>Sarah Lee</td>
+                        <td>Global Tech</td>
+                        <td>sarah@global.com</td>
+                        <td>9658741230</td>
+
+                        <td>
+                            <span class="status inactive-status">Lost</span>
+                        </td>
+
+                        <td>Alex</td>
+
+                        <td>
+
+                            <div class="action-group">
+
+                                <a href="#" class="btn btn-warning">Edit</a>
+
+                                <a href="#" class="btn btn-danger">Delete</a>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <div class="pagination">
+
+                <a href="#">«</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">»</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            © 2026 SmartCRM | Lead Management
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
